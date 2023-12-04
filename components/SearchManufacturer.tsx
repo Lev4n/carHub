@@ -27,7 +27,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
                     {/* Button for the combobox. Click on the icon to see the complete dropdown */}
                     <Combobox.Button className='absolute top-[14px]'>
                         <Image
-                            src='/car-logo.svg'
+                            src='/BMW_Logo.svg'
                             width={20}
                             height={20}
                             className='ml-4'
@@ -40,7 +40,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
                         className='search-manufacturer__input'
                         displayValue={(item: string) => item}
                         onChange={(event) => setQuery(event.target.value)} // Update the search query when the input changes
-                        placeholder='Volkswagen...'
+                        placeholder='BMW...'
                     />
 
                     {/* Transition for displaying the options */}
